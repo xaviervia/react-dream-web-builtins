@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/fernando.canel/.asdf/installs/node/8.7.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js init
+
+PATH: 
+  /usr/local/share/android-sdk/build-tools/25.0.3:/usr/local/share/android-sdk/platform-tools:/usr/local/share/android-sdk/tools:/Users/fernando.canel/.local/bin/luna-studio:/Users/fernando.canel/.opam/4.02.3/bin:/Users/fernando.canel/Code/others/racket-6.8/bin:/Users/fernando.canel/.yarn/bin:/Users/fernando.canel/.nix-profile/bin:/Users/fernando.canel/.asdf/bin:/Users/fernando.canel/.asdf/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/fernando.canel/.asdf/installs/node/8.7.0/.npm/bin:/Users/fernando.canel/.config/yarn/global/node_modules/.bin:/Users/fernando.canel/.rvm/bin:/Applications/ADT/sdk/platform-tools:/Applications/ADT/sdk/tools:/Users/fernando.canel/.asdf/installs/node/7.3.0/.npm/bin:/Users/fernando.canel/.asdf/shims/go:/Users/fernando.canel/Code/go/bin:/Users/fernando.canel/Code/others/emsdk:/Users/fernando.canel/Code/others/emsdk/clang/fastcomp/build_incoming_64/bin:/Users/fernando.canel/Code/others/emsdk/node/4.1.1_64bit/bin:/Users/fernando.canel/Code/others/emsdk/emscripten/incoming:/Users/fernando.canel/Code/others/emsdk/binaryen/master_64bit_binaryen/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.7.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:128791:13)
+      at emitNone (events.js:105:13)
+      at Interface.emit (events.js:207:7)
+      at Interface._ttyWrite (readline.js:775:16)
+      at ReadStream.onkeypress (readline.js:160:10)
+      at emitTwo (events.js:125:13)
+      at ReadStream.emit (events.js:213:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1011:36)
