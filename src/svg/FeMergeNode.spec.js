@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeMergeNode from './FeMergeNode'
 import { equal } from 'assert'
 
-describe('primitives / html / FeMergeNode', () => {
+describe('html / FeMergeNode', () => {
   it('has displayName `FeMergeNode`', () => {
     equal(FeMergeNode.Component.displayName, 'FeMergeNode')
   })

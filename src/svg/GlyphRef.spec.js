@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import GlyphRef from './GlyphRef'
 import { equal } from 'assert'
 
-describe('primitives / html / GlyphRef', () => {
+describe('html / GlyphRef', () => {
   it('has displayName `GlyphRef`', () => {
     equal(GlyphRef.Component.displayName, 'GlyphRef')
   })

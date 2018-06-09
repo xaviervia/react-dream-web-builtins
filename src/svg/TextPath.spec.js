@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import TextPath from './TextPath'
 import { equal } from 'assert'
 
-describe('primitives / html / TextPath', () => {
+describe('html / TextPath', () => {
   it('has displayName `TextPath`', () => {
     equal(TextPath.Component.displayName, 'TextPath')
   })

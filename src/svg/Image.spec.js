@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Image from './Image'
 import { equal } from 'assert'
 
-describe('primitives / html / Image', () => {
+describe('html / Image', () => {
   it('has displayName `Image`', () => {
     equal(Image.Component.displayName, 'Image')
   })

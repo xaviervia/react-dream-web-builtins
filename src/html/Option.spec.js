@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Option from './Option'
 import { equal } from 'assert'
 
-describe('primitives / html / Option', () => {
+describe('html / Option', () => {
   it('has displayName `Option`', () => {
     equal(Option.Component.displayName, 'Option')
   })

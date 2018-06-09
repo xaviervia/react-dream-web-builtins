@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Optgroup from './Optgroup'
 import { equal } from 'assert'
 
-describe('primitives / html / Optgroup', () => {
+describe('html / Optgroup', () => {
   it('has displayName `Optgroup`', () => {
     equal(Optgroup.Component.displayName, 'Optgroup')
   })

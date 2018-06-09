@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Hatchpath from './Hatchpath'
 import { equal } from 'assert'
 
-describe('primitives / html / Hatchpath', () => {
+describe('html / Hatchpath', () => {
   it('has displayName `Hatchpath`', () => {
     equal(Hatchpath.Component.displayName, 'Hatchpath')
   })

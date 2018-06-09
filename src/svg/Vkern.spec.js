@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Vkern from './Vkern'
 import { equal } from 'assert'
 
-describe('primitives / html / Vkern', () => {
+describe('html / Vkern', () => {
   it('has displayName `Vkern`', () => {
     equal(Vkern.Component.displayName, 'Vkern')
   })

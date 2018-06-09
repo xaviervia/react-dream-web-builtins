@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Polyline from './Polyline'
 import { equal } from 'assert'
 
-describe('primitives / html / Polyline', () => {
+describe('html / Polyline', () => {
   it('has displayName `Polyline`', () => {
     equal(Polyline.Component.displayName, 'Polyline')
   })

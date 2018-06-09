@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import AnimateColor from './AnimateColor'
 import { equal } from 'assert'
 
-describe('primitives / html / AnimateColor', () => {
+describe('html / AnimateColor', () => {
   it('has displayName `AnimateColor`', () => {
     equal(AnimateColor.Component.displayName, 'AnimateColor')
   })

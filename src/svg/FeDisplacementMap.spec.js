@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeDisplacementMap from './FeDisplacementMap'
 import { equal } from 'assert'
 
-describe('primitives / html / FeDisplacementMap', () => {
+describe('html / FeDisplacementMap', () => {
   it('has displayName `FeDisplacementMap`', () => {
     equal(FeDisplacementMap.Component.displayName, 'FeDisplacementMap')
   })

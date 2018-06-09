@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Script from './Script'
 import { equal } from 'assert'
 
-describe('primitives / html / Script', () => {
+describe('html / Script', () => {
   it('has displayName `Script`', () => {
     equal(Script.Component.displayName, 'Script')
   })

@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import LinearGradient from './LinearGradient'
 import { equal } from 'assert'
 
-describe('primitives / html / LinearGradient', () => {
+describe('html / LinearGradient', () => {
   it('has displayName `LinearGradient`', () => {
     equal(LinearGradient.Component.displayName, 'LinearGradient')
   })

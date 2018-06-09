@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import ColorProfile from './ColorProfile'
 import { equal } from 'assert'
 
-describe('primitives / html / ColorProfile', () => {
+describe('html / ColorProfile', () => {
   it('has displayName `ColorProfile`', () => {
     equal(ColorProfile.Component.displayName, 'ColorProfile')
   })

@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Keygen from './Keygen'
 import { equal } from 'assert'
 
-describe('primitives / html / Keygen', () => {
+describe('html / Keygen', () => {
   it('has displayName `Keygen`', () => {
     equal(Keygen.Component.displayName, 'Keygen')
   })

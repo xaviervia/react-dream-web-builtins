@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Canvas from './Canvas'
 import { equal } from 'assert'
 
-describe('primitives / html / Canvas', () => {
+describe('html / Canvas', () => {
   it('has displayName `Canvas`', () => {
     equal(Canvas.Component.displayName, 'Canvas')
   })

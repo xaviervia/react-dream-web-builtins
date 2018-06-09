@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Menuitem from './Menuitem'
 import { equal } from 'assert'
 
-describe('primitives / html / Menuitem', () => {
+describe('html / Menuitem', () => {
   it('has displayName `Menuitem`', () => {
     equal(Menuitem.Component.displayName, 'Menuitem')
   })

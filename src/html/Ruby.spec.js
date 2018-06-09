@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Ruby from './Ruby'
 import { equal } from 'assert'
 
-describe('primitives / html / Ruby', () => {
+describe('html / Ruby', () => {
   it('has displayName `Ruby`', () => {
     equal(Ruby.Component.displayName, 'Ruby')
   })

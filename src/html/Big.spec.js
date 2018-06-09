@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Big from './Big'
 import { equal } from 'assert'
 
-describe('primitives / html / Big', () => {
+describe('html / Big', () => {
   it('has displayName `Big`', () => {
     equal(Big.Component.displayName, 'Big')
   })

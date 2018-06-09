@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeComposite from './FeComposite'
 import { equal } from 'assert'
 
-describe('primitives / html / FeComposite', () => {
+describe('html / FeComposite', () => {
   it('has displayName `FeComposite`', () => {
     equal(FeComposite.Component.displayName, 'FeComposite')
   })

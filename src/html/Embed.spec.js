@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Embed from './Embed'
 import { equal } from 'assert'
 
-describe('primitives / html / Embed', () => {
+describe('html / Embed', () => {
   it('has displayName `Embed`', () => {
     equal(Embed.Component.displayName, 'Embed')
   })

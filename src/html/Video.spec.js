@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Video from './Video'
 import { equal } from 'assert'
 
-describe('primitives / html / Video', () => {
+describe('html / Video', () => {
   it('has displayName `Video`', () => {
     equal(Video.Component.displayName, 'Video')
   })

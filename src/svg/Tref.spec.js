@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Tref from './Tref'
 import { equal } from 'assert'
 
-describe('primitives / html / Tref', () => {
+describe('html / Tref', () => {
   it('has displayName `Tref`', () => {
     equal(Tref.Component.displayName, 'Tref')
   })

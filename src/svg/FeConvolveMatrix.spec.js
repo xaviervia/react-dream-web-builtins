@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeConvolveMatrix from './FeConvolveMatrix'
 import { equal } from 'assert'
 
-describe('primitives / html / FeConvolveMatrix', () => {
+describe('html / FeConvolveMatrix', () => {
   it('has displayName `FeConvolveMatrix`', () => {
     equal(FeConvolveMatrix.Component.displayName, 'FeConvolveMatrix')
   })

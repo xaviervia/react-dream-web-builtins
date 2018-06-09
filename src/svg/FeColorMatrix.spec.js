@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeColorMatrix from './FeColorMatrix'
 import { equal } from 'assert'
 
-describe('primitives / html / FeColorMatrix', () => {
+describe('html / FeColorMatrix', () => {
   it('has displayName `FeColorMatrix`', () => {
     equal(FeColorMatrix.Component.displayName, 'FeColorMatrix')
   })

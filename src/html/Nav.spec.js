@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Nav from './Nav'
 import { equal } from 'assert'
 
-describe('primitives / html / Nav', () => {
+describe('html / Nav', () => {
   it('has displayName `Nav`', () => {
     equal(Nav.Component.displayName, 'Nav')
   })

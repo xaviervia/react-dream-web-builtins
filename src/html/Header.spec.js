@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Header from './Header'
 import { equal } from 'assert'
 
-describe('primitives / html / Header', () => {
+describe('html / Header', () => {
   it('has displayName `Header`', () => {
     equal(Header.Component.displayName, 'Header')
   })

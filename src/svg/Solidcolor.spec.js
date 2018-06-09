@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Solidcolor from './Solidcolor'
 import { equal } from 'assert'
 
-describe('primitives / html / Solidcolor', () => {
+describe('html / Solidcolor', () => {
   it('has displayName `Solidcolor`', () => {
     equal(Solidcolor.Component.displayName, 'Solidcolor')
   })

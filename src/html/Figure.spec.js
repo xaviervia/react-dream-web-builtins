@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Figure from './Figure'
 import { equal } from 'assert'
 
-describe('primitives / html / Figure', () => {
+describe('html / Figure', () => {
   it('has displayName `Figure`', () => {
     equal(Figure.Component.displayName, 'Figure')
   })

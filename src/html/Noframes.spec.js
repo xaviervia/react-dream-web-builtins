@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Noframes from './Noframes'
 import { equal } from 'assert'
 
-describe('primitives / html / Noframes', () => {
+describe('html / Noframes', () => {
   it('has displayName `Noframes`', () => {
     equal(Noframes.Component.displayName, 'Noframes')
   })

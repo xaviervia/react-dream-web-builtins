@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeBlend from './FeBlend'
 import { equal } from 'assert'
 
-describe('primitives / html / FeBlend', () => {
+describe('html / FeBlend', () => {
   it('has displayName `FeBlend`', () => {
     equal(FeBlend.Component.displayName, 'FeBlend')
   })

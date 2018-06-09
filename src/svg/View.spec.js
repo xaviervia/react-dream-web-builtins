@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import View from './View'
 import { equal } from 'assert'
 
-describe('primitives / html / View', () => {
+describe('html / View', () => {
   it('has displayName `View`', () => {
     equal(View.Component.displayName, 'View')
   })

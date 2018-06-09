@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Thead from './Thead'
 import { equal } from 'assert'
 
-describe('primitives / html / Thead', () => {
+describe('html / Thead', () => {
   it('has displayName `Thead`', () => {
     equal(Thead.Component.displayName, 'Thead')
   })

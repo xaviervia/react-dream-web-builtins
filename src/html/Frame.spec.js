@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Frame from './Frame'
 import { equal } from 'assert'
 
-describe('primitives / html / Frame', () => {
+describe('html / Frame', () => {
   it('has displayName `Frame`', () => {
     equal(Frame.Component.displayName, 'Frame')
   })

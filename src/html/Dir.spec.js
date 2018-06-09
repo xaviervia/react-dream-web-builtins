@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Dir from './Dir'
 import { equal } from 'assert'
 
-describe('primitives / html / Dir', () => {
+describe('html / Dir', () => {
   it('has displayName `Dir`', () => {
     equal(Dir.Component.displayName, 'Dir')
   })

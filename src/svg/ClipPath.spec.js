@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import ClipPath from './ClipPath'
 import { equal } from 'assert'
 
-describe('primitives / html / ClipPath', () => {
+describe('html / ClipPath', () => {
   it('has displayName `ClipPath`', () => {
     equal(ClipPath.Component.displayName, 'ClipPath')
   })

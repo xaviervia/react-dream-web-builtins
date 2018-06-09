@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Param from './Param'
 import { equal } from 'assert'
 
-describe('primitives / html / Param', () => {
+describe('html / Param', () => {
   it('has displayName `Param`', () => {
     equal(Param.Component.displayName, 'Param')
   })

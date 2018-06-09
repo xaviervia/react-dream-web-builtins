@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Polygon from './Polygon'
 import { equal } from 'assert'
 
-describe('primitives / html / Polygon', () => {
+describe('html / Polygon', () => {
   it('has displayName `Polygon`', () => {
     equal(Polygon.Component.displayName, 'Polygon')
   })

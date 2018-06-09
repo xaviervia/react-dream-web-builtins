@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import AnimateMotion from './AnimateMotion'
 import { equal } from 'assert'
 
-describe('primitives / html / AnimateMotion', () => {
+describe('html / AnimateMotion', () => {
   it('has displayName `AnimateMotion`', () => {
     equal(AnimateMotion.Component.displayName, 'AnimateMotion')
   })

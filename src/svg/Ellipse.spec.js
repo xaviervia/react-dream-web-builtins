@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Ellipse from './Ellipse'
 import { equal } from 'assert'
 
-describe('primitives / html / Ellipse', () => {
+describe('html / Ellipse', () => {
   it('has displayName `Ellipse`', () => {
     equal(Ellipse.Component.displayName, 'Ellipse')
   })

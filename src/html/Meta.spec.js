@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Meta from './Meta'
 import { equal } from 'assert'
 
-describe('primitives / html / Meta', () => {
+describe('html / Meta', () => {
   it('has displayName `Meta`', () => {
     equal(Meta.Component.displayName, 'Meta')
   })

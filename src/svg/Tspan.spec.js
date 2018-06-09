@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Tspan from './Tspan'
 import { equal } from 'assert'
 
-describe('primitives / html / Tspan', () => {
+describe('html / Tspan', () => {
   it('has displayName `Tspan`', () => {
     equal(Tspan.Component.displayName, 'Tspan')
   })

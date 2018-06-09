@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Discard from './Discard'
 import { equal } from 'assert'
 
-describe('primitives / html / Discard', () => {
+describe('html / Discard', () => {
   it('has displayName `Discard`', () => {
     equal(Discard.Component.displayName, 'Discard')
   })

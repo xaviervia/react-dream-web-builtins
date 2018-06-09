@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Area from './Area'
 import { equal } from 'assert'
 
-describe('primitives / html / Area', () => {
+describe('html / Area', () => {
   it('has displayName `Area`', () => {
     equal(Area.Component.displayName, 'Area')
   })

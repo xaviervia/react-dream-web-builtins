@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Table from './Table'
 import { equal } from 'assert'
 
-describe('primitives / html / Table', () => {
+describe('html / Table', () => {
   it('has displayName `Table`', () => {
     equal(Table.Component.displayName, 'Table')
   })

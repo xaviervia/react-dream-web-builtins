@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Filter from './Filter'
 import { equal } from 'assert'
 
-describe('primitives / html / Filter', () => {
+describe('html / Filter', () => {
   it('has displayName `Filter`', () => {
     equal(Filter.Component.displayName, 'Filter')
   })

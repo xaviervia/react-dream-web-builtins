@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Circle from './Circle'
 import { equal } from 'assert'
 
-describe('primitives / html / Circle', () => {
+describe('html / Circle', () => {
   it('has displayName `Circle`', () => {
     equal(Circle.Component.displayName, 'Circle')
   })

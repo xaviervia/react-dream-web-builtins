@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Datalist from './Datalist'
 import { equal } from 'assert'
 
-describe('primitives / html / Datalist', () => {
+describe('html / Datalist', () => {
   it('has displayName `Datalist`', () => {
     equal(Datalist.Component.displayName, 'Datalist')
   })

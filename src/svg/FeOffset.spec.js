@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeOffset from './FeOffset'
 import { equal } from 'assert'
 
-describe('primitives / html / FeOffset', () => {
+describe('html / FeOffset', () => {
   it('has displayName `FeOffset`', () => {
     equal(FeOffset.Component.displayName, 'FeOffset')
   })

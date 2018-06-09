@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Cite from './Cite'
 import { equal } from 'assert'
 
-describe('primitives / html / Cite', () => {
+describe('html / Cite', () => {
   it('has displayName `Cite`', () => {
     equal(Cite.Component.displayName, 'Cite')
   })

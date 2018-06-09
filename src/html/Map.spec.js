@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Map from './Map'
 import { equal } from 'assert'
 
-describe('primitives / html / Map', () => {
+describe('html / Map', () => {
   it('has displayName `Map`', () => {
     equal(Map.Component.displayName, 'Map')
   })

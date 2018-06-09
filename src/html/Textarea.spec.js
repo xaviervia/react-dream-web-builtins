@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Textarea from './Textarea'
 import { equal } from 'assert'
 
-describe('primitives / html / Textarea', () => {
+describe('html / Textarea', () => {
   it('has displayName `Textarea`', () => {
     equal(Textarea.Component.displayName, 'Textarea')
   })

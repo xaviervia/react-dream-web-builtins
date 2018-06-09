@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import AltGlyphDef from './AltGlyphDef'
 import { equal } from 'assert'
 
-describe('primitives / html / AltGlyphDef', () => {
+describe('html / AltGlyphDef', () => {
   it('has displayName `AltGlyphDef`', () => {
     equal(AltGlyphDef.Component.displayName, 'AltGlyphDef')
   })

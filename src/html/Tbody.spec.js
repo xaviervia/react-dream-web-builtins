@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Tbody from './Tbody'
 import { equal } from 'assert'
 
-describe('primitives / html / Tbody', () => {
+describe('html / Tbody', () => {
   it('has displayName `Tbody`', () => {
     equal(Tbody.Component.displayName, 'Tbody')
   })

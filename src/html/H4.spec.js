@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import H4 from './H4'
 import { equal } from 'assert'
 
-describe('primitives / html / H4', () => {
+describe('html / H4', () => {
   it('has displayName `H4`', () => {
     equal(H4.Component.displayName, 'H4')
   })

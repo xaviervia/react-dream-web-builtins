@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Td from './Td'
 import { equal } from 'assert'
 
-describe('primitives / html / Td', () => {
+describe('html / Td', () => {
   it('has displayName `Td`', () => {
     equal(Td.Component.displayName, 'Td')
   })

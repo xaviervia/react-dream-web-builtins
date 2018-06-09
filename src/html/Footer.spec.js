@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Footer from './Footer'
 import { equal } from 'assert'
 
-describe('primitives / html / Footer', () => {
+describe('html / Footer', () => {
   it('has displayName `Footer`', () => {
     equal(Footer.Component.displayName, 'Footer')
   })

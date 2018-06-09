@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Form from './Form'
 import { equal } from 'assert'
 
-describe('primitives / html / Form', () => {
+describe('html / Form', () => {
   it('has displayName `Form`', () => {
     equal(Form.Component.displayName, 'Form')
   })

@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Span from './Span'
 import { equal } from 'assert'
 
-describe('primitives / html / Span', () => {
+describe('html / Span', () => {
   it('has displayName `Span`', () => {
     equal(Span.Component.displayName, 'Span')
   })

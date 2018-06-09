@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Dialog from './Dialog'
 import { equal } from 'assert'
 
-describe('primitives / html / Dialog', () => {
+describe('html / Dialog', () => {
   it('has displayName `Dialog`', () => {
     equal(Dialog.Component.displayName, 'Dialog')
   })

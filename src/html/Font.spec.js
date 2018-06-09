@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Font from './Font'
 import { equal } from 'assert'
 
-describe('primitives / html / Font', () => {
+describe('html / Font', () => {
   it('has displayName `Font`', () => {
     equal(Font.Component.displayName, 'Font')
   })

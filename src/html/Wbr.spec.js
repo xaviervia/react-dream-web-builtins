@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Wbr from './Wbr'
 import { equal } from 'assert'
 
-describe('primitives / html / Wbr', () => {
+describe('html / Wbr', () => {
   it('has displayName `Wbr`', () => {
     equal(Wbr.Component.displayName, 'Wbr')
   })

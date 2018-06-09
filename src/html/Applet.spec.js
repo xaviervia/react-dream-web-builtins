@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Applet from './Applet'
 import { equal } from 'assert'
 
-describe('primitives / html / Applet', () => {
+describe('html / Applet', () => {
   it('has displayName `Applet`', () => {
     equal(Applet.Component.displayName, 'Applet')
   })

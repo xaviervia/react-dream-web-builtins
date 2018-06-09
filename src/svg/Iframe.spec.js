@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Iframe from './Iframe'
 import { equal } from 'assert'
 
-describe('primitives / html / Iframe', () => {
+describe('html / Iframe', () => {
   it('has displayName `Iframe`', () => {
     equal(Iframe.Component.displayName, 'Iframe')
   })

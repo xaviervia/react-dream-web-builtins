@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Metadata from './Metadata'
 import { equal } from 'assert'
 
-describe('primitives / html / Metadata', () => {
+describe('html / Metadata', () => {
   it('has displayName `Metadata`', () => {
     equal(Metadata.Component.displayName, 'Metadata')
   })

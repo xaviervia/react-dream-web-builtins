@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Mpath from './Mpath'
 import { equal } from 'assert'
 
-describe('primitives / html / Mpath', () => {
+describe('html / Mpath', () => {
   it('has displayName `Mpath`', () => {
     equal(Mpath.Component.displayName, 'Mpath')
   })

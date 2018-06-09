@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeComponentTransfer from './FeComponentTransfer'
 import { equal } from 'assert'
 
-describe('primitives / html / FeComponentTransfer', () => {
+describe('html / FeComponentTransfer', () => {
   it('has displayName `FeComponentTransfer`', () => {
     equal(FeComponentTransfer.Component.displayName, 'FeComponentTransfer')
   })

@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Acronym from './Acronym'
 import { equal } from 'assert'
 
-describe('primitives / html / Acronym', () => {
+describe('html / Acronym', () => {
   it('has displayName `Acronym`', () => {
     equal(Acronym.Component.displayName, 'Acronym')
   })

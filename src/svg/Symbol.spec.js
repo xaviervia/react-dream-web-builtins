@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Symbol from './Symbol'
 import { equal } from 'assert'
 
-describe('primitives / html / Symbol', () => {
+describe('html / Symbol', () => {
   it('has displayName `Symbol`', () => {
     equal(Symbol.Component.displayName, 'Symbol')
   })

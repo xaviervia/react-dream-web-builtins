@@ -11,7 +11,7 @@ import { create } from 'react-test-renderer'
 import ${capitalizeFirst(tagName)} from './${capitalizeFirst(tagName)}'
 import { equal } from 'assert'
 
-describe('primitives / html / ${capitalizeFirst(tagName)}', () => {
+describe('html / ${capitalizeFirst(tagName)}', () => {
   it('has displayName \`${capitalizeFirst(tagName)}\`', () => {
     equal(${capitalizeFirst(tagName)}.Component.displayName, '${capitalizeFirst(tagName)}')
   })
@@ -25,7 +25,7 @@ describe('primitives / html / ${capitalizeFirst(tagName)}', () => {
 })`,
   source: `${generatedCodeWarning}
 import React from 'react'
-import ReactDream from '../../ReactDream'
+import ReactDream from 'react-dream'
 
 export default ReactDream(props => <${tagName} {...props} />).name('${capitalizeFirst(tagName)}')`,
   sourceFileName: `${capitalizeFirst(tagName)}.js`,
@@ -49,10 +49,10 @@ const indexFiles = {
 
 const writeFile = where => ({ sourceFileName, specFileName, spec, source }) => {
   console.log(`writing ${where} ${sourceFileName}`)
-  fs.writeFileSync(__dirname + '/../src/primitives/' + where + '/' + sourceFileName, source)
+  fs.writeFileSync(__dirname + '/../src/' + where + '/' + sourceFileName, source)
 
   console.log(`writing ${where} ${specFileName}`)
-  fs.writeFileSync(__dirname + '/../src/primitives/' + where + '/' + specFileName, spec)
+  fs.writeFileSync(__dirname + '/../src/' + where + '/' + specFileName, spec)
 }
 
 toWriteList.html.forEach(writeFile('html'))
@@ -60,6 +60,6 @@ toWriteList.svg.forEach(writeFile('svg'))
 
 console.log(`------------------`)
 console.log(`writing html index`)
-fs.writeFileSync(__dirname + '/../src/primitives/html/index.js', indexFiles.html)
+fs.writeFileSync(__dirname + '/../src/html/index.js', indexFiles.html)
 console.log(`writing svg index`)
-fs.writeFileSync(__dirname + '/../src/primitives/svg/index.js', indexFiles.svg)
+fs.writeFileSync(__dirname + '/../src/svg/index.js', indexFiles.svg)

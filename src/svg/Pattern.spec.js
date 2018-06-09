@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Pattern from './Pattern'
 import { equal } from 'assert'
 
-describe('primitives / html / Pattern', () => {
+describe('html / Pattern', () => {
   it('has displayName `Pattern`', () => {
     equal(Pattern.Component.displayName, 'Pattern')
   })

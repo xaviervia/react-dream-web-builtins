@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Fieldset from './Fieldset'
 import { equal } from 'assert'
 
-describe('primitives / html / Fieldset', () => {
+describe('html / Fieldset', () => {
   it('has displayName `Fieldset`', () => {
     equal(Fieldset.Component.displayName, 'Fieldset')
   })

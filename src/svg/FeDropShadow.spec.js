@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeDropShadow from './FeDropShadow'
 import { equal } from 'assert'
 
-describe('primitives / html / FeDropShadow', () => {
+describe('html / FeDropShadow', () => {
   it('has displayName `FeDropShadow`', () => {
     equal(FeDropShadow.Component.displayName, 'FeDropShadow')
   })

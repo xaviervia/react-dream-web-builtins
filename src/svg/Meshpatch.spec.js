@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Meshpatch from './Meshpatch'
 import { equal } from 'assert'
 
-describe('primitives / html / Meshpatch', () => {
+describe('html / Meshpatch', () => {
   it('has displayName `Meshpatch`', () => {
     equal(Meshpatch.Component.displayName, 'Meshpatch')
   })

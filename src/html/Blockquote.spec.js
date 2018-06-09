@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Blockquote from './Blockquote'
 import { equal } from 'assert'
 
-describe('primitives / html / Blockquote', () => {
+describe('html / Blockquote', () => {
   it('has displayName `Blockquote`', () => {
     equal(Blockquote.Component.displayName, 'Blockquote')
   })

@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Basefont from './Basefont'
 import { equal } from 'assert'
 
-describe('primitives / html / Basefont', () => {
+describe('html / Basefont', () => {
   it('has displayName `Basefont`', () => {
     equal(Basefont.Component.displayName, 'Basefont')
   })

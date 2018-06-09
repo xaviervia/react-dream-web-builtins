@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Colgroup from './Colgroup'
 import { equal } from 'assert'
 
-describe('primitives / html / Colgroup', () => {
+describe('html / Colgroup', () => {
   it('has displayName `Colgroup`', () => {
     equal(Colgroup.Component.displayName, 'Colgroup')
   })

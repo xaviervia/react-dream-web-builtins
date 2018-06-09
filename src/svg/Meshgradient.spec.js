@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Meshgradient from './Meshgradient'
 import { equal } from 'assert'
 
-describe('primitives / html / Meshgradient', () => {
+describe('html / Meshgradient', () => {
   it('has displayName `Meshgradient`', () => {
     equal(Meshgradient.Component.displayName, 'Meshgradient')
   })

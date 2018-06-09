@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Var from './Var'
 import { equal } from 'assert'
 
-describe('primitives / html / Var', () => {
+describe('html / Var', () => {
   it('has displayName `Var`', () => {
     equal(Var.Component.displayName, 'Var')
   })

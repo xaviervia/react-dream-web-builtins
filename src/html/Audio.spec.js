@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Audio from './Audio'
 import { equal } from 'assert'
 
-describe('primitives / html / Audio', () => {
+describe('html / Audio', () => {
   it('has displayName `Audio`', () => {
     equal(Audio.Component.displayName, 'Audio')
   })

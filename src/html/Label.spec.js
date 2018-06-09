@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Label from './Label'
 import { equal } from 'assert'
 
-describe('primitives / html / Label', () => {
+describe('html / Label', () => {
   it('has displayName `Label`', () => {
     equal(Label.Component.displayName, 'Label')
   })

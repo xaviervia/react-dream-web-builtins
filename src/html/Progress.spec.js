@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Progress from './Progress'
 import { equal } from 'assert'
 
-describe('primitives / html / Progress', () => {
+describe('html / Progress', () => {
   it('has displayName `Progress`', () => {
     equal(Progress.Component.displayName, 'Progress')
   })

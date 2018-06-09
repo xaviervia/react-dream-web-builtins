@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Path from './Path'
 import { equal } from 'assert'
 
-describe('primitives / html / Path', () => {
+describe('html / Path', () => {
   it('has displayName `Path`', () => {
     equal(Path.Component.displayName, 'Path')
   })

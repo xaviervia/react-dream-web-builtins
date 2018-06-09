@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Bdo from './Bdo'
 import { equal } from 'assert'
 
-describe('primitives / html / Bdo', () => {
+describe('html / Bdo', () => {
   it('has displayName `Bdo`', () => {
     equal(Bdo.Component.displayName, 'Bdo')
   })

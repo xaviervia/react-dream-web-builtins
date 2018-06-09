@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Menu from './Menu'
 import { equal } from 'assert'
 
-describe('primitives / html / Menu', () => {
+describe('html / Menu', () => {
   it('has displayName `Menu`', () => {
     equal(Menu.Component.displayName, 'Menu')
   })

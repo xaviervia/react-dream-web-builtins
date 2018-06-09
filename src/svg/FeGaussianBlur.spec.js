@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FeGaussianBlur from './FeGaussianBlur'
 import { equal } from 'assert'
 
-describe('primitives / html / FeGaussianBlur', () => {
+describe('html / FeGaussianBlur', () => {
   it('has displayName `FeGaussianBlur`', () => {
     equal(FeGaussianBlur.Component.displayName, 'FeGaussianBlur')
   })

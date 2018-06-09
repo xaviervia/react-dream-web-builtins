@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Select from './Select'
 import { equal } from 'assert'
 
-describe('primitives / html / Select', () => {
+describe('html / Select', () => {
   it('has displayName `Select`', () => {
     equal(Select.Component.displayName, 'Select')
   })

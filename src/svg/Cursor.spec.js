@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Cursor from './Cursor'
 import { equal } from 'assert'
 
-describe('primitives / html / Cursor', () => {
+describe('html / Cursor', () => {
   it('has displayName `Cursor`', () => {
     equal(Cursor.Component.displayName, 'Cursor')
   })

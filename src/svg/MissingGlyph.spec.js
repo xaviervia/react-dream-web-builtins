@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import MissingGlyph from './MissingGlyph'
 import { equal } from 'assert'
 
-describe('primitives / html / MissingGlyph', () => {
+describe('html / MissingGlyph', () => {
   it('has displayName `MissingGlyph`', () => {
     equal(MissingGlyph.Component.displayName, 'MissingGlyph')
   })

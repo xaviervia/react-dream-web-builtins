@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Meshrow from './Meshrow'
 import { equal } from 'assert'
 
-describe('primitives / html / Meshrow', () => {
+describe('html / Meshrow', () => {
   it('has displayName `Meshrow`', () => {
     equal(Meshrow.Component.displayName, 'Meshrow')
   })

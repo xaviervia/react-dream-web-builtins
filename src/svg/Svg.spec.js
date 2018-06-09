@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Svg from './Svg'
 import { equal } from 'assert'
 
-describe('primitives / html / Svg', () => {
+describe('html / Svg', () => {
   it('has displayName `Svg`', () => {
     equal(Svg.Component.displayName, 'Svg')
   })

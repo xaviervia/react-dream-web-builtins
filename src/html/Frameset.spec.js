@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Frameset from './Frameset'
 import { equal } from 'assert'
 
-describe('primitives / html / Frameset', () => {
+describe('html / Frameset', () => {
   it('has displayName `Frameset`', () => {
     equal(Frameset.Component.displayName, 'Frameset')
   })

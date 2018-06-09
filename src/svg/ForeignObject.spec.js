@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import ForeignObject from './ForeignObject'
 import { equal } from 'assert'
 
-describe('primitives / html / ForeignObject', () => {
+describe('html / ForeignObject', () => {
   it('has displayName `ForeignObject`', () => {
     equal(ForeignObject.Component.displayName, 'ForeignObject')
   })

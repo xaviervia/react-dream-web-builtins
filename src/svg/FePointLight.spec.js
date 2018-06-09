@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import FePointLight from './FePointLight'
 import { equal } from 'assert'
 
-describe('primitives / html / FePointLight', () => {
+describe('html / FePointLight', () => {
   it('has displayName `FePointLight`', () => {
     equal(FePointLight.Component.displayName, 'FePointLight')
   })

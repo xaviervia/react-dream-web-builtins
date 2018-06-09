@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Legend from './Legend'
 import { equal } from 'assert'
 
-describe('primitives / html / Legend', () => {
+describe('html / Legend', () => {
   it('has displayName `Legend`', () => {
     equal(Legend.Component.displayName, 'Legend')
   })

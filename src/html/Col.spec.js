@@ -5,7 +5,7 @@ import { create } from 'react-test-renderer'
 import Col from './Col'
 import { equal } from 'assert'
 
-describe('primitives / html / Col', () => {
+describe('html / Col', () => {
   it('has displayName `Col`', () => {
     equal(Col.Component.displayName, 'Col')
   })
