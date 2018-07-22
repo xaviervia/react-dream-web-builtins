@@ -1,6 +1,6 @@
 {
   "name": "react-dream-web-builtins",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Builtin React Dream components for web primitives",
   "main": "dist/index.js",
   "repository": "git@github.com:xaviervia/react-dream-web-builtins.git",
