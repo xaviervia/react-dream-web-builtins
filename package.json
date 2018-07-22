@@ -6,6 +6,9 @@
   "repository": "git@github.com:xaviervia/react-dream-web-builtins.git",
   "author": "Fernando Via Canel <fernando.via@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dist": "babel src/ -d dist/ --ignore spec.js,example/",
     "test": "jest",
