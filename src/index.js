@@ -1,5 +1,5 @@
-import * as _Html from './primitives/html'
-import * as _Svg from './primitives/svg'
+import * as _Html from './html'
+import * as _Svg from './svg'
 
 export const Html = _Html
 export const Svg = _Svg
